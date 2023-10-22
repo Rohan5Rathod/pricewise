@@ -1,9 +1,10 @@
+import Searchbar from '@/components/Searchbar'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <>
-      <section className="border-2 border-red-500 px-6 md:px-20 py-24">
+      <section className="px-6 md:px-20 py-24">
         <div className="flex max-xl:flex-col gap-16">
           <div className="flex flex-col justify-center">
             <p className="small-text">Smart shopping starts here:
@@ -12,7 +13,7 @@ export default function Home() {
             <h1 className="head-text">Unleash the power of <span className='text-primary'>PriseWise</span></h1>
             <p className="mt-6">Powerful, self-serve product and growth analytics to help you convert, engage, and retain morel</p>
 
-            Searchbar
+            <Searchbar/>
           </div>
 
           HeroCarousel
