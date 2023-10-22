@@ -1,3 +1,4 @@
+import HeroCarousal from '@/components/HeroCarousal'
 import Searchbar from '@/components/Searchbar'
 import Image from 'next/image'
 
@@ -16,7 +17,7 @@ export default function Home() {
             <Searchbar/>
           </div>
 
-          HeroCarousel
+        <HeroCarousal/>
         </div>
       </section>
 
